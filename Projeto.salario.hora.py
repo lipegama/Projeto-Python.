@@ -41,4 +41,5 @@ exibir valor hora
 salario_mensal = input('Qual é o seu salário mensal: ')
 horas_trabalhadas = input('Quantas horas trabalha por mês: ')
 valor_hora = float(salario_mensal) / int(horas_trabalhadas)
-print  (valor_hora)
+print  (f'Esses são seu salario por hora: {valor_hora}')
+
